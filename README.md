@@ -3,7 +3,7 @@
 ### Instalar o nodemon -> npm install nodemon -D
 ### Instalar o SQlite3 -> npm install sqlite3
 ### Instalar a extensão nunjucks template
-    ###### No settings json 
+    ###### No settings.json adicione:
       "files.associations": {
     "*html": "njk"
     },
