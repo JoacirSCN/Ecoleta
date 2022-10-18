@@ -1,0 +1,40 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
+  --primary-color-black: #2fb86e;
+  --bg-primary: #f0f0f5;
+
+  font-size: 62.5%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: var(--title-color);
+}

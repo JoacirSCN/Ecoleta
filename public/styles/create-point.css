@@ -1,0 +1,166 @@
+/* GENERAL */
+#page-create-point {
+  width: 90%;
+  max-width: 110rem;/* 1100px */
+
+  margin-inline: auto;
+}
+
+#page-create-point header {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-create-point header a {
+  color: var(--title-color);
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+#page-create-point header a span {
+  background: url(../assets/arrow-left.svg);
+  
+  margin-right: 1.6rem;
+
+  display: flex;
+  width: 2rem;
+  height: 2.4rem;
+}
+
+/* FORM */
+form {
+  background: #fff;
+
+  padding: 6.4rem;
+  margin: 8rem auto;
+
+  border-radius: .8rem;
+
+  max-width: 73.6rem;
+
+}
+
+form h1 {
+  font-size: 3.6rem;
+}
+
+form fieldset {
+  margin-top: 6.4rem;
+
+  border: none;
+}
+
+form legend {
+  margin-bottom: 4rem;
+}
+
+form legend h2{
+  font-size: 2.4rem;
+}
+
+form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2.4rem;
+}
+
+form .field-group {
+  display: flex;
+  gap: 2.4rem; 
+}
+
+form input, 
+form select {
+  background: var(--bg-primary);
+
+  border: 0;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.6rem;
+
+  border-radius: .8rem;
+}
+
+form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+form label {
+  font-size: 1.4rem;
+  margin-bottom: .8rem;
+}
+
+form button {
+  width: 100%;
+  height: 5.6rem;
+
+  background: var(--primary-color);
+  border-radius: .8rem;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+
+  border: 0;
+
+  margin-top: 4rem;
+
+  transition: background 400ms;
+}
+
+form button:hover {
+  background: #2fb86e;
+}
+
+.itens-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.itens-grid li {
+  background: #f5f5f5;
+  list-style: none;
+
+  border: .2rem solid #f5f5f5;
+  border-radius: .8rem;
+
+  height: 18rem;
+  padding: 3.2rem 2.4rem 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.itens-grid li span {
+  margin-top: 1.2rem;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--title-color);
+}
+
+.itens-grid li.selected {
+  background: #e1faec;
+  border: .2rem solid #34cb79;
+}
+
+.itens-grid li img,
+.itens-grid li span {
+  pointer-events: none;
+}
