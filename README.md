@@ -6,11 +6,10 @@
     ###### No settings json 
       "files.associations": {
     "*html": "njk"
-  },
-  "emmet.includeLanguages": {
+    },
+    "emmet.includeLanguages": {
     "njk": "html"
-  },
-  "vsicons.associations.files": [
-    { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }
-  ]
+    },
+    "vsicons.associations.files": [
+    { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }]
 ### npm start para iniciar o servidor
